@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+
+html , body{
+      padding: 0px;
+      margin: 0px;
+}
+
+body {
+      background-color: rgb(79, 165, 93);
+}
+
+
+@font-face {
+      font-family: 'idroid';
+      src: url('fontes/idroid.otf') format('opentype');
+
+      font-weight: normal;
+      font-style: normal;
+
+      /* 
+      tipos de format()
+            Opentype
+            truetype
+            embedded-opentype
+            truetype-aat
+            svg
+      */
+}
+
+/* header*/
+
+header {
+      background-image: linear-gradient(to top, #1e941a, #51d362);
+      padding-top: 40px;
+      padding-bottom: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      text-align: center;
+}
+
+header > h1, header > h2 {
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.425);
+}
+
+header > h1 {
+      font-size: 2em;
+      margin-top: 0px;
+}
+
+header > h2 {
+      font-size: 1em;
+      margin-bottom: 30px;
+}
+
+nav {
+      text-align: left;
+}
+
+nav > a {
+      font-size: 0.9em;
+      font-weight: bold;
+      text-decoration: none;
+      margin: 5px;
+      color: white;
+}
+
+nav > a:hover {
+      color: rgb(13, 157, 240);
+}
+
+/* main */
+main {
+      margin: auto;
+      width: 60%;
+      background-color: white;
+      padding: 1em;
+      text-align: justify;  
+      border-radius: 0px 0px 10px 10px;
+}
+
+main > h1, main > h2 {
+      text-align: left;
+      font-family: 'idroid';
+      color: green;
+}
+
+main > h2 {
+      background-color: rgb(145, 221, 145);
+}
+
+picture > img {
+      display: block;
+      margin: auto;
+}
+
+#extra {
+      background-color: rgb(173, 233, 173);
+}
+
+#extra > h3 {
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-size: 1em;
+      background-color: green;
+      margin: 0px;
+      padding: 3px;
+}
+
+#extra > ul {
+      display: inline-block;
+}
+
+#extra > ul > li{
+      list-style-type:symbols(cyclic'✔');
+      text-decoration: underline;
+}
+
+/* footer */
+
+footer {
+      margin-top: 1em;
+      text-align: center;
+      color: white;
+      background-color: green;
+      padding: 0.5em;
+}
